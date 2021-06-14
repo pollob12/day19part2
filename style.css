@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+h2{
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+.another{
+    text-align: center; 
+    padding: 10px; 
+}
+
+.another li{
+    display: inline-block; 
+     margin-left: -5PX; 
+    
+} 
+
+.another li a{
+     display: inline-block;
+     border: 5px solid rgb(5, 245, 93);  
+     padding: 10px 60px; 
+     background:tomato;  
+}
+
+.another li a:hover{
+    background-color:rgb(129, 248, 129);  
+    transition: 2s; 
+    border: indigo; 
+}
+
+.another-div{
+   
+    background-image: url(./img/3f3a29318b0a5ac2a1b49e59cbd98dbd5a712d81b76a69d1db76c4ca10103587.jpg);
+    background-position: top center; 
+    background-size: cover;  
+    padding: 300px 0; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+} 
